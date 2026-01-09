@@ -14,7 +14,6 @@ public class Bai1 {
         System.out.println("Hiệu: " + (a - b));
         System.out.println("Tích: " + (a * b));
         
-        // Kiểm tra mẫu số khác 0 trước khi chia
         if (b != 0) {
             System.out.println("Thương: " + (a / b));
         } else {
