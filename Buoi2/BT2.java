@@ -1,15 +1,14 @@
 package Buoi2;
 
 import java.util.Scanner;
-
-public class KiemTraSoNguyenTo {
+public class BT2 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
         System.out.print("Nhập vào số nguyên n: ");
         int n = s.nextInt();
 
-        if (soNguyenTo(n)) {
+        if (sNT(n)) {
             System.out.println(n + " là số nguyên tố.");
         } else {
             System.out.println(n + " không phải là số nguyên tố.");
@@ -17,7 +16,7 @@ public class KiemTraSoNguyenTo {
         s.close();
     }
 
-    public static boolean soNguyenTo(int n) {
+    public static boolean sNT(int n) {
         if (n <= 1) {
             return false;
         }

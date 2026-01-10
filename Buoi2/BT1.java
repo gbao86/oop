@@ -1,7 +1,7 @@
 package Buoi2;
 
 import java.util.Scanner;
-public class BTif {
+public class BT1 {
     public static void main(String[] args) {
         Scanner a = new Scanner(System.in);
 
