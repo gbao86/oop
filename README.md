@@ -50,4 +50,4 @@ java tuan1.Bai1
 
 ## 📄 License
 
-Dự án này được phân phối dưới giấy phép [MIT License](LICENSE). Xem file `LICENSE` để biết thêm chi tiết.
+Kho lưu trữ này được phân phối dưới giấy phép [MIT License](LICENSE). Xem file `LICENSE` để biết thêm chi tiết.
