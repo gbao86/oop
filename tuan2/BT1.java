@@ -1,4 +1,4 @@
-package Buoi2;
+package tuan2;
 
 import java.util.Scanner;
 public class BT1 {

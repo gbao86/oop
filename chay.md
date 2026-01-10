@@ -1,3 +1,3 @@
-javac Buoi1/Bai1.java
+javac Tuan1/Bai1.java
 
-java Buoi1.Bai1
+java Tuan1.Bai1
