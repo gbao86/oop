@@ -20,9 +20,8 @@ oop/
 ├── thuchanh3/      # Tuần 3 - Thực hành (sẽ tạo)
 ├── thuchanh4/      # Tuần 4 - Thực hành (sẽ tạo)
 ├── thuchanh5/      # Tuần 5 - Thực hành (sẽ tạo)
-├── README.md       # File mô tả dự án
-├── LICENSE         # Giấy phép MIT
-└── chay.md         # Hướng dẫn compile và chạy chương trình
+├── README.md       # File mô tả      
+└── LICENSE         # Giấy phép MIT
 ```
 
 ### 📚 Nội dung
