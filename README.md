@@ -15,11 +15,11 @@ oop/
 ├── tuan2/          # Tuần 2 - Lý thuyết
 ├── ...
 ├── tuan10/         # Tuần 10 - Lý thuyết
-├── thuchanh1/      # Tuần 1 - Thực hành (sẽ tạo)
-├── thuchanh2/      # Tuần 2 - Thực hành (sẽ tạo)
-├── thuchanh3/      # Tuần 3 - Thực hành (sẽ tạo)
-├── thuchanh4/      # Tuần 4 - Thực hành (sẽ tạo)
-├── thuchanh5/      # Tuần 5 - Thực hành (sẽ tạo)
+├── thuchanh1/      # Tuần 11 - Thực hành (sẽ tạo)
+├── thuchanh2/      # Tuần 12 - Thực hành (sẽ tạo)
+├── thuchanh3/      # Tuần 13 - Thực hành (sẽ tạo)
+├── thuchanh4/      # Tuần 14 - Thực hành (sẽ tạo)
+├── thuchanh5/      # Tuần 15 - Thực hành (sẽ tạo)
 ├── README.md       # File mô tả      
 └── LICENSE         # Giấy phép MIT
 ```
