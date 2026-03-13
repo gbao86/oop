@@ -5,7 +5,7 @@ Kho lưu trữ toàn bộ mã nguồn bài tập môn học Lập trình hướn
 ## 👤 Thông tin sinh viên
 - **Họ và tên:** Trịnh Gia Bảo
 - **Mã số sinh viên:** 1050080089
-- **Lớp:** 13_ĐH_HTTT1 (Học ghép)
+- **Lớp:** 13_ĐH_HTTT1
 
 ## 📁 Cấu trúc thư mục
 
