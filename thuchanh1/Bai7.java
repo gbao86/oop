@@ -13,7 +13,7 @@ public class Bai7 {
         double mayTinh = sc.nextDouble();
 
         double tongDiem = ly + hoa + sinh + toan + mayTinh;
-        double tyLe = (tongDiem / 50) * 100; // Giả sử mỗi môn tối đa 10 điểm
+        double tyLe = (tongDiem / 50) * 100; 
 
         System.out.println("Tỷ lệ phần trăm: " + tyLe + "%");
 

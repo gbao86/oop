@@ -1,5 +1,5 @@
 package thuchanh1;
-//Bài 1: In tên, ngày sinh, mã số sinh viên
+//Bài 1: In tên, ngày sinh, mã số sinh vi\
 public class Bai1 {
     public static void main(String[] args) {
         System.out.println("Tên: Trịnh Gia Bảo");
