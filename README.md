@@ -1,11 +1,17 @@
-# Học phần: Lập trình hướng đối tượng (OOP)
+# LT HDT - Kho bài tập OOP
 
-Kho lưu trữ này chứa bài tập môn học Lập trình hướng đối tượng dưới dạng file PDF và hình ảnh viết tay. Không phải mã nguồn lập trình, nên nội dung tập trung vào kết quả bài làm và tài liệu bài tập.
+Một bộ sưu tập bài tập Lập trình hướng đối tượng chất lượng cao được lưu trữ dưới dạng PDF và hình ảnh viết tay. Đây là tài liệu tổng hợp cho toàn bộ quá trình học OOP, từ lý thuyết đến thực hành.
 
 ## 👤 Thông tin sinh viên
 - **Họ và tên:** Trịnh Gia Bảo
 - **Mã số sinh viên:** 1050080089
 - **Lớp:** 13_ĐH_HTTT1
+
+## 🚀 Điểm nhấn của kho lưu trữ
+- ✅ Nội dung trực quan, dễ theo dõi: bài tập PDF và ảnh tay rõ ràng.
+- ✅ Phù hợp làm tư liệu tham khảo cho bài tập OOP và lập trình Java cơ bản.
+- ✅ Bao quát cả lý thuyết và thực hành trong 15 tuần học.
+- ✅ Không phải mã nguồn chạy được, mà là bản ghi chép và kết quả bài tập.
 
 ## 📁 Cấu trúc thư mục
 
@@ -24,14 +30,14 @@ oop/
 └── LICENSE         # Giấy phép MIT
 ```
 
-### 📚 Nội dung
-- **10 tuần lý thuyết:** Các bài tập được lưu dưới dạng PDF/hình ảnh trong `tuan1/` đến `tuan10/`
-- **5 tuần thực hành:** Các bài tập được lưu dưới dạng PDF/hình ảnh trong `thuchanh1/` đến `thuchanh5/`
+## 📚 Nội dung chính
+- **Tuần 1 - Tuần 10:** Bài tập lý thuyết OOP, UML, thuật toán, cấu trúc dữ liệu và giải thuật.
+- **Thực hành 1 - Thực hành 5:** Bài tập thực hành chính thức, bao gồm các đề tài trình bày, giải thích và minh họa.
 
-## ℹ️ Ghi chú
-- Đây là kho lưu trữ bài tập viết tay, không phải dự án mã nguồn Java có thể biên dịch/chạy.
-- Nếu cần mở nội dung, hãy dùng trình xem PDF hoặc xem ảnh.
+## ℹ️ Ghi chú quan trọng
+- Đây là kho bài tập viết tay; không có mã nguồn Java để biên dịch/chạy.
+- Để xem nội dung, dùng trình đọc PDF hoặc xem hình ảnh trực tiếp.
+- Nếu cần chuyển đổi nội dung sang dự án Java, bạn có thể tham khảo từng bài và tái hiện lại trong IDE.
 
 ## 📄 License
-
 Kho lưu trữ này được phân phối dưới giấy phép [MIT License](LICENSE). Xem file `LICENSE` để biết thêm chi tiết.
