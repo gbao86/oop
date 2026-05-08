@@ -40,4 +40,7 @@ oop/
 - Nếu cần chuyển đổi nội dung sang dự án Java, bạn có thể tham khảo từng bài và tái hiện lại trong IDE.
 
 ## 📄 License
-Kho lưu trữ này được phân phối dưới giấy phép [MIT License](LICENSE). Xem file `LICENSE` để biết thêm chi tiết.
+Kho lưu trữ này được phân phối dưới giấy phép [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+
+- **Bản quyền:** 2026 gbao86 và tiktokthu10@gmail.com
+- Bạn có thể chia sẻ và tái sử dụng nội dung với điều kiện ghi nhận tác giả.
