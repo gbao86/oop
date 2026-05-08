@@ -1,6 +1,6 @@
 # Học phần: Lập trình hướng đối tượng (OOP)
 
-Kho lưu trữ toàn bộ mã nguồn bài tập môn học Lập trình hướng đối tượng. Nội dung bao gồm 10 tuần học lý thuyết và 5 tuần học thực hành.
+Kho lưu trữ này chứa bài tập môn học Lập trình hướng đối tượng dưới dạng file PDF và hình ảnh viết tay. Không phải mã nguồn lập trình, nên nội dung tập trung vào kết quả bài làm và tài liệu bài tập.
 
 ## 👤 Thông tin sinh viên
 - **Họ và tên:** Trịnh Gia Bảo
@@ -11,41 +11,26 @@ Kho lưu trữ toàn bộ mã nguồn bài tập môn học Lập trình hướn
 
 ```
 oop/
-├── tuan1/          # Tuần 1 - Lý thuyết
-├── tuan2/          # Tuần 2 - Lý thuyết
+├── tuan1/          # Tuần 1 - Bài tập lý thuyết
+├── tuan2/          # Tuần 2 - Bài tập lý thuyết
 ├── ...
-├── tuan10/         # Tuần 10 - Lý thuyết
-├── thuchanh1/      # Tuần 11 - Thực hành (sẽ tạo)
-├── thuchanh2/      # Tuần 12 - Thực hành (sẽ tạo)
-├── thuchanh3/      # Tuần 13 - Thực hành (sẽ tạo)
-├── thuchanh4/      # Tuần 14 - Thực hành (sẽ tạo)
-├── thuchanh5/      # Tuần 15 - Thực hành (sẽ tạo)
-├── README.md       # File mô tả      
+├── tuan10/         # Tuần 10 - Bài tập lý thuyết
+├── thuchanh1/      # Tuần 11 - Bài tập thực hành
+├── thuchanh2/      # Tuần 12 - Bài tập thực hành
+├── thuchanh3/      # Tuần 13 - Bài tập thực hành
+├── thuchanh4/      # Tuần 14 - Bài tập thực hành
+├── thuchanh5/      # Tuần 15 - Bài tập thực hành
+├── README.md       # File mô tả
 └── LICENSE         # Giấy phép MIT
 ```
 
 ### 📚 Nội dung
-- **10 tuần lý thuyết:** Các bài tập Java theo từng tuần học (`tuan1/` đến `tuan10/`)
-- **5 tuần thực hành:** Các bài tập thực hành chính thức (`thuchanh1/` đến `thuchanh5/`)
+- **10 tuần lý thuyết:** Các bài tập được lưu dưới dạng PDF/hình ảnh trong `tuan1/` đến `tuan10/`
+- **5 tuần thực hành:** Các bài tập được lưu dưới dạng PDF/hình ảnh trong `thuchanh1/` đến `thuchanh5/`
 
-## 🛠️ Môi trường phát triển
-- **IDEs:** Visual Studio Code & NetBeans 18
-- **Java Versions:** Java 21 (VS Code) và Java 17 (NetBeans)
-- **Quản lý mã nguồn:** Git
-
-## 🚀 Hướng dẫn compile và chạy
-
-### Compile một file Java:
-```bash
-javac tuan1/Bai1.java
-```
-
-### Chạy chương trình:
-```bash
-java tuan1.Bai1
-```
-
-> 💡 **Lưu ý:** Khi chạy từ thư mục gốc, cần chỉ định đầy đủ package path (ví dụ: `tuan1.Bai1`)
+## ℹ️ Ghi chú
+- Đây là kho lưu trữ bài tập viết tay, không phải dự án mã nguồn Java có thể biên dịch/chạy.
+- Nếu cần mở nội dung, hãy dùng trình xem PDF hoặc xem ảnh.
 
 ## 📄 License
 
