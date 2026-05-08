@@ -4,49 +4,54 @@ import java.util.Scanner;
 
 public class Bai2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        Calculator calc = new Calculator();
 
-        System.out.print("Nhập phương tiện (car/truck): ");
-        String type = sc.nextLine().trim().toLowerCase();
+        System.out.print("Nhap a: ");
+        int a = scanner.nextInt();
 
-        Vehicle vehicle = VehicleFactory.getVehicle(type);
-        if (vehicle == null) {
-            System.out.println("Loại phương tiện không hợp lệ. Hãy nhập 'car' hoặc 'truck'.");
-        } else {
-            vehicle.move();
+        System.out.print("Nhap b: ");
+        int b = scanner.nextInt();
+
+        try {
+            double resultDivide = calc.divide(a, b);
+            System.out.println("Ket qua chia: " + resultDivide);
+        } catch (ArithmeticException | NumberOutOfRangeException e) {
+            System.out.println("Loi trong phep chia: " + e.getMessage());
         }
 
-        sc.close();
-    }
-
-    interface Vehicle {
-        void move();
-    }
-
-    static class Car implements Vehicle {
-        @Override
-        public void move() {
-            System.out.println("car is moving");
+        try {
+            int resultMultiply = calc.multiply(a, b);
+            System.out.println("Ket qua nhan: " + resultMultiply);
+        } catch (NumberOutOfRangeException e) {
+            System.out.println("Loi trong phep nhan: " + e.getMessage());
         }
-    }
 
-    static class Truck implements Vehicle {
-        @Override
-        public void move() {
-            System.out.println("truck is moving");
-        }
-    }
-
-    static class VehicleFactory {
-        public static Vehicle getVehicle(String type) {
-            if ("car".equals(type)) {
-                return new Car();
-            } else if ("truck".equals(type)) {
-                return new Truck();
-            } else {
-                return null;
-            }
-        }
+        scanner.close();
     }
 }
 
+class Calculator {
+    public double divide(int a, int b) throws NumberOutOfRangeException {
+        if (a < -1000 || a > 1000 || b < -1000 || b > 1000) {
+            throw new NumberOutOfRangeException("Number is outside this computation");
+        }
+        if (b == 0) {
+            throw new ArithmeticException("divide by zero");
+        }
+        return (double) a / b;
+    }
+
+    public int multiply(int a, int b) throws NumberOutOfRangeException {
+        if (a < -1000 || a > 1000 || b < -1000 || b > 1000) {
+            throw new NumberOutOfRangeException("Number is outside this computation");
+        }
+        return a * b;
+    }
+}
+
+class NumberOutOfRangeException extends Exception {
+    public NumberOutOfRangeException(String message) {
+        super(message);
+    }
+}

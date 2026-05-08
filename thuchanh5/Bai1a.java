@@ -2,7 +2,7 @@ package thuchanh5;
 
 import java.util.Scanner;
 
-public class Bai1 {
+public class Bai1a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
